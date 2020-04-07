@@ -12,9 +12,28 @@ body {
     padding: 3rem 1.5rem;
     text-align: center;
 }
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
 
 .navbar {
     border-bottom:1px solid #eee;
+}
+.footer {
+    justify-content:center;
+    position: absolute;
+    bottom: 0;
+    width: 100;
+    /* set the fixed height of the footer here*/
+    height: 60xp;
+    line-height: 60xp; /* vertically center the text there */
+    background-color: #f5f5f5;
 }
 
 .bd-placeholder-img {
